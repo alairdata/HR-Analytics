@@ -67,3 +67,33 @@ Key objectives include:
 - YearsSinceLastPromotion - Time since the employee’s last promotion.
 - YearsWithCurrManager - Number of years working under the current manager.
 
+## 4. Business Questions & Analytical Opportunities
+### Attrition Analysis
+- What factors contribute to employee attrition?
+- Do employees with lower satisfaction scores leave more often?
+- How does commute time affect attrition rates?
+- Are younger employees or those with fewer years at the company more likely to leave?
+- Does working overtime correlate with higher attrition?
+
+### Compensation & Performance
+- Does salary impact job satisfaction and retention?
+- Are high performers receiving better salary hikes?
+- Do employees in certain job roles or departments earn significantly more than others?
+- Do employees with stock options tend to stay longer?
+
+### Work-Life Balance & Engagement
+- Do employees working overtime report lower job satisfaction?
+- How does training impact retention and job involvement?
+- What is the effect of work-life balance on performance?
+- Do employees with a better work-life balance stay longer?
+
+### Career Growth & Predictive Modeling
+- Do employees who receive frequent promotions tend to stay longer?
+- Can we build a model to predict which employees are most at risk of leaving?
+- What combination of factors provides the best prediction accuracy?
+
+### 5. Data Summary & Preprocessing Notes
+- Missing Values: Some columns may have missing values (e.g., EnvironmentSatisfaction, WorkLifeBalance). Consider imputing missing data using mean/mode.
+- Categorical Encoding: Columns like BusinessTravel, MaritalStatus, and JobRole need encoding for machine learning models.
+- Standardization: MonthlyIncome, HourlyRate, and DistanceFromHome could benefit from normalization for better model performance.
+
