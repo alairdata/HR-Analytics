@@ -92,7 +92,7 @@ Key objectives include:
 - Can we build a model to predict which employees are most at risk of leaving?
 - What combination of factors provides the best prediction accuracy?
 
-### 5. Data Summary & Preprocessing Notes
+## 5. Data Summary & Preprocessing Notes
 - Missing Values: Some columns may have missing values (e.g., EnvironmentSatisfaction, WorkLifeBalance). Consider imputing missing data using mean/mode.
 - Categorical Encoding: Columns like BusinessTravel, MaritalStatus, and JobRole need encoding for machine learning models.
 - Standardization: MonthlyIncome, HourlyRate, and DistanceFromHome could benefit from normalization for better model performance.
